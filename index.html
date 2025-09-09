@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Jayanthi R - Portfolio</title>
+
+  <style>
+
+    /* Animated Gradient Background */
+
+    body {
+
+      margin: 0;
+
+      font-family: 'Segoe UI', sans-serif;
+
+      color: #333;
+
+      background: linear-gradient(-45deg, #f3ec78, #af4261, #4a148c, #03a9f4);
+
+      background-size: 400% 400%;
+
+      animation: gradientBG 15s ease infinite;
+
+    }
+
+    @keyframes gradientBG {
+
+      0% {
+
+        background-position: 0% 50%;
+
+      }
+
+      50% {
+
+        background-position: 100% 50%;
+
+      }
+
+      100% {
+
+        background-position: 0% 50%;
+
+      }
+
+    }
+
+    header {
+
+      background-color: rgba(0, 0, 0, 0.7);
+
+      color: white;
+
+      padding: 30px 20px;
+
+      text-align: center;
+
+    }
+
+    nav a {
+
+      color: white;
+
+      margin: 0 10px;
+
+      text-decoration: none;
+
+      font-weight: bold;
+
+    }
+
+    section {
+
+      padding: 40px 20px;
+
+      max-width: 900px;
+
+      margin: auto;
+
+      background-color: rgba(255, 255, 255, 0.9);
+
+      border-radius: 8px;
+
+      margin-top: 20px;
+
+    }
+
+    h2 {
+
+      color: #4a148c;
+
+      margin-bottom: 10px;
+
+    }
+
+    .project {
+
+      background-color: #f2e7fa;
+
+      margin: 15px 0;
+
+      padding: 20px;
+
+      border-left: 5px solid #7b1fa2;
+
+      border-radius: 5px;
+
+    }
+
+    ul {
+
+      list-style-type: square;
+
+      padding-left: 20px;
+
+    }
+
+    .info-box {
+
+      background-color: #f3f3f3;
+
+      border-left: 5px solid #4a148c;
+
+      padding: 15px;
+
+      margin: 10px 0;
+
+      border-radius: 5px;
+
+    }
+
+    footer {
+
+      text-align: center;
+
+      padding: 20px;
+
+      background-color: rgba(0, 0, 0, 0.7);
+
+      color: white;
+
+      margin-top: 50px;
+
+    }
+
+    button {
+
+      background-color: #7b1fa2;
+
+      color: white;
+
+      padding: 10px 15px;
+
+      border: none;
+
+      border-radius: 5px;
+
+      cursor: pointer;
+
+      margin-top: 15px;
+
+    }
+
+    button:hover {
+
+      background-color: #9c27b0;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Jayanthi R</h1>
+
+    <p>BCA Student | MMES Women's Arts and Science College, Melvisharam</p>
+
+    <nav>
+
+      <a href="#about">About</a>
+
+      <a href="#education">Education</a>
+
+      <a href="#skills">Skills</a>
+
+      <a href="#projects">Projects</a>
+
+      <a href="#hobbies">Hobbies</a>
+
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+  </header>
+
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+
+      Hello! I am <strong>Jayanthi R</strong>, a Bachelor of Computer Applications (BCA) student at 
+
+      <strong>MMES Women's Arts and Science College</strong>, Melvisharam.
+
+      I’m passionate about web development, programming, and creating useful digital solutions. This portfolio showcases my work and skills.
+
+    </p>
+
+  </section>
+
+  <section id="education">
+
+    <h2>Education</h2>
+
+    <div class="info-box">
+
+      <p><strong>Degree:</strong> Bachelor of Computer Applications (BCA)</p>
+
+      <p><strong>College:</strong> MMES Women's Arts and Science College, Melvisharam</p>
+
+      <p><strong>University:</strong> Thiruvalluvar University</p>
+
+      <p><strong>Year:</strong> 2022 – 2025 (Expected)</p>
+
+    </div>
+
+  </section>
+
+  <section id="skills">
+
+    <h2>My Skills</h2>
+
+    <ul>
+
+      <li>HTML5 & CSS3</li>
+
+      <li>JavaScript (Basics)</li>
+
+      <li>Responsive Web Design</li>
+
+      <li>Form Validation</li>
+
+      <li>Basic C Programming</li>
+
+      <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+
+      <li>Teamwork & Communication</li>
+
+      <li>Problem Solving</li>
+
+    </ul>
+
+  </section>
+
+  <section id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="project">
+
+      <h3>Personal Portfolio Website</h3>
+
+      <p>A responsive single-page portfolio built using HTML, CSS, and JavaScript.</p>
+
+    </div>
+
+    <div class="project">
+
+      <h3>To-Do List App</h3>
+
+      <p>A simple task manager using JavaScript and local storage to keep track of daily tasks.</p>
+
+    </div>
+
+    <div class="project">
+
+      <h3>Student Registration Form</h3>
+
+      <p>A form that collects student data with basic validation using JavaScript.</p>
+
+    </div>
+
+    <button onclick="showMore()">Show More</button>
+
+    <div id="more-projects" style="display:none;">
+
+      <div class="project">
+
+        <h3>Calculator</h3>
+
+        <p>A basic calculator built with JavaScript that performs simple arithmetic operations.</p>
+
+      </div>
+
+      <div class="project">
+
+        <h3>Responsive Login Page</h3>
+
+        <p>A mobile-friendly login form using HTML5 and CSS3 with validation.</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="hobbies">
+
+    <h2>My Hobbies</h2>
+
+    <ul>
+
+      <li>Dancing</li>
+
+      <li>Reading</li>
+
+      <li>Writing</li>
+
+      <li>Travelling</li>
+
+      <li>Listening to Music</li>
+
+      <li>Cooking</li>
+
+    </ul>
+
+  </section>
+
+  <section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>Email: jayanthi.bca@example.com</p>
+
+    <p>LinkedIn: <a href="https://linkedin.com/in/jayanthi-bca" target="_blank">linkedin.com/in/jayanthi-bca</a></p>
+
+  </section>
+
+  <footer>
+
+    &copy; 2025 Jayanthi R - All Rights Reserved.
+
+  </footer>
+
+  <script>
+
+    function showMore() {
+
+      const more = document.getElementById("more-projects");
+
+      if (more.style.display === "none") {
+
+        more.style.display = "block";
+
+      } else {
+
+        more.style.display = "none";
+
+      }
+
+    }
+
+  </script>
+
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
